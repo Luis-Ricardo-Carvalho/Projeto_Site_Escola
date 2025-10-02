@@ -1,0 +1,5 @@
+/* Classe personalizada com tom de azul */
+.custom-blue-header {
+    background-color: #007bff; /* Tom de azul personalizado */
+    color: #fff; /* Cor do texto */
+}
