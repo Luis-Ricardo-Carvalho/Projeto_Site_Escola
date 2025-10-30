@@ -3,3 +3,7 @@
     background-color: #007bff; /* Tom de azul personalizado */
     color: #fff; /* Cor do texto */
 }
+
+#nav{
+    justify-content: center;
+}
