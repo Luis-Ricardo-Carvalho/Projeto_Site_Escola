@@ -7,3 +7,15 @@
 #nav{
     justify-content: center;
 }
+
+.contact-style{
+    background-color: #008f21;
+    color: #fff;
+}
+
+.paragraphs-contact{
+    border: solid #005614 2px; 
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

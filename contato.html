@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script src="https://apis.google.com/js/api.js"></script>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Seu arquivo CSS personalizado -->
 
@@ -15,8 +16,13 @@
 
 <body>
     <!-- Barra de navegação Bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Contato</a>
+    <nav id="nav" class="navbar navbar-dark contact-style">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="sobre-nos.html">Sobre nós</a>
+        <a class="navbar-brand" href="galeria-fotos.html">Galeria de fotos</a>
+        <a class="navbar-brand" href="projetos.html">Projetos</a>
+        <a class="navbar-brand" href="noticias.html">Notícias</a>
+        <a class="navbar-brand" href="contato.html">Contato</a>
     </nav>
 
     <div class="container mt-5">
@@ -27,7 +33,7 @@
         <section class="about mt-5">
             <div class="row">
                 <div class="col-md-6">
-                    <h2>Tefelone</h2>
+                    <h2>Telefone</h2>
                     <p>(35) 9 9724-1468</p>
                     <h2>Email</h2>
                     <p>emadoniro@hotmail.com</p>
@@ -41,18 +47,8 @@
         </section>
 
         <section class="project-actions mt-5" id="actions-table">
-            <h2>Ações do Projeto</h2>
-            <table class="table">
-                <thead class="custom-blue-header">
-                    <tr>
-                        <th>Ação</th>
-                        <th>Descrição</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Dados CSV serão inseridos aqui via JavaScript -->
-                </tbody>
-            </table>
+            <h2 class="contact-style paragraphs-contact">Localização no google maps</h2>
+            <a href="https://maps.app.goo.gl/Bb2n5goaegrC1HRo9"></a>
         </section>
 
         <section class="impact mt-5">
