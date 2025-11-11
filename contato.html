@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script src="https://apis.google.com/js/api.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style-contato.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Seu arquivo CSS personalizado -->
 
-    <head rel="stylesheet" href="styles.css">
         <title>Projeto Social</title>
     </head>
 
 <body>
     <!-- Barra de navegação Bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Contato</a>
+    <nav id="nav" class="navbar navbar-dark contact-style">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="sobre-nos.html">Sobre nós</a>
+        <a class="navbar-brand" href="galeria-fotos.html">Galeria de fotos</a>
+        <a class="navbar-brand" href="projetos.html">Projetos</a>
+        <a class="navbar-brand" href="noticias.html">Notícias</a>
+        <a class="navbar-brand" href="contato.html">Contato</a>
     </nav>
 
     <div class="container mt-5">
@@ -27,7 +33,7 @@
         <section class="about mt-5">
             <div class="row">
                 <div class="col-md-6">
-                    <h2>Tefelone</h2>
+                    <h2>Telefone</h2>
                     <p>(35) 9 9724-1468</p>
                     <h2>Email</h2>
                     <p>emadoniro@hotmail.com</p>
@@ -35,50 +41,56 @@
                     <p>BAIRRO PINHALZINHO, PINHALZINHO. 37750-000 Machado - MG</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="assets/about.jpg" alt="Imagem sobre o projeto" class="img-fluid">
+                    <img width="50%" aling-itens="right" src="assets/Logo_E_M_Adoniro_de_Souza_Ribeiro.png" alt="Imagem sobre a escola" class="img-fluid">
                 </div>
             </div>
         </section>
 
         <section class="project-actions mt-5" id="actions-table">
-            <h2>Ações do Projeto</h2>
-            <table class="table">
-                <thead class="custom-blue-header">
-                    <tr>
-                        <th>Ação</th>
-                        <th>Descrição</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Dados CSV serão inseridos aqui via JavaScript -->
-                </tbody>
-            </table>
-        </section>
-
-        <section class="impact mt-5">
-            <h2>Nosso Impacto</h2>
-            <p>Já ajudamos centenas de pessoas em nossa comunidade, fornecendo alimentos, educação, treinamento
-                profissional e muito mais.</p>
-        </section>
-
-        <section class="donate mt-5 text-center">
-            <h2>Como você pode ajudar nossa instituição</h2>
-            <p>Contribua para o nosso projeto social e faça a diferença na vida das pessoas necessitadas.</p>
-            <button class="btn btn-primary" id="donateBtn">Faça uma Doação</button>
-            <br/>
-        <iframe width="600" height="450" frameborder="0" style="border:0"
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDunp5UoDY4LeKYFo92ByH9MgIYiVehBaI&q=IFSULDEMINAS - Campus Machado&zoom=15"
+            <h2 class="contact-style paragraphs-contact">Localização no Google Maps</h2>
+            <iframe width="100%" height="450" frameborder="0" style="border:0; text-align: center;" 
+            src="https://maps.app.goo.gl/B9y3Lms5VnJZTCiq7"
             allowfullscreen>
         </iframe>
-    </section>
+        </section>
 
     </div>
 
 
 
 
-    <footer class="bg-dark text-white text-center mt-5 py-3">
-        <p>&copy; 2023 Projeto Social XYZ</p>
+    <footer class=" text-white text-center mt-5">
+
+        <section class="bg-success about py-2">
+            <div class="row">
+                <div class="col-md-4" style="align-content: center;">
+                    <img width="50%"  src="assets/Logo_E_M_Adoniro_de_Souza_Ribeiro.png" alt="Imagem sobre a escola" class="img-fluid">
+                </div>
+                <div class="col-md-2" style="align-content: center;">
+                    <nav id="nav" class="navbar navbar-dark">
+                        <a class="navbar-brand nav_item_footer" href="projetos.html">Projetos</a>
+                        <a class="navbar-brand nav_item_footer" href="noticias.html">Notícias</a>
+                        <a class="navbar-brand nav_item_footer" href="contato.html">Contato</a>
+                    </nav>
+                </div>
+
+                <div class="col-md-2" style="align-content: center;">
+                    <nav id="nav" class="navbar navbar-dark">
+                        <a class="navbar-brand nav_item_footer" href="index.html">Home</a>
+                        <a class="navbar-brand nav_item_footer" href="sobre-nos.html">Sobre nós</a>
+                        <a class="navbar-brand nav_item_footer" href="galeria-fotos.html">Galeria de fotos</a>
+                    </nav>
+                </div>
+                <div class="col-md-3" style="align-content: center;">
+                    <h5>Fale com a gente</h5>
+                    <p>(35) 9 9724-1468</p>
+                    <p>emadoniro@hotmail.com</p>
+                    <p>BAIRRO PINHALZINHO, PINHALZINHO. 37750-000 Machado - MG</p>
+                </div>
+            </div>
+        </section>
+
+        <p class="bg-secondary mb-0 py-2">&copy; 2026 Escola Municipal Adoniro de Souza Ribeiro</p>
     </footer>
 
     <!-- Inclua o Bootstrap JavaScript e o jQuery -->
