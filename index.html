@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script src="https://apis.google.com/js/api.js"></script>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Seu arquivo CSS personalizado -->
 
@@ -15,8 +16,13 @@
 
 <body>
     <!-- Barra de navegação Bootstrap -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Projeto Social Transformando Vidas</a>
+    <nav id="nav" class="navbar navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <a class="navbar-brand" href="sobre-nos.html">Sobre nós</a>
+        <a class="navbar-brand" href="galeria-fotos.html">Galeria de fotos</a>
+        <a class="navbar-brand" href="projetos.html">Projetos</a>
+        <a class="navbar-brand" href="noticias.html">Notícias</a>
+        <a class="navbar-brand" href="contato.html">Contato</a>
     </nav>
 
     <div class="container mt-5">
@@ -27,45 +33,63 @@
         <section class="about mt-5">
             <div class="row">
                 <div class="col-md-6">
-                    <h2>Sobre o Projeto</h2>
-                    <p>O Projeto Social XYZ é dedicado a melhorar a vida das pessoas por meio de ações sociais, educação
-                        e oportunidades de desenvolvimento.</p>
+                    <h2>Nossa <span style="color: #008f21;">história</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sint et soluta
+                        harum quae libero ipsa blanditiis, officia dolor consectetur qui praesentium
+                        ullam minus tenetur veniam molestias enim quos? Quibusdam.</p>
+                <button class="button"><a href="contato.html">Entrar em contato</a></button>
                 </div>
                 <div class="col-md-6">
-                    <img src="assets/about.jpg" alt="Imagem sobre o projeto" class="img-fluid">
+                    <img src="assets/about" alt="Imagem da Escola municipal adonoriro de souza Ribeiro" class="img-fluid">
                 </div>
             </div>
         </section>
 
-        <section class="project-actions mt-5" id="actions-table">
-            <h2>Visão GoogleMaps</h2>
-            
+        <section class="about mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/about" alt="Imagem da Escola municipal adonoriro de souza Ribeiro" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2>FORMAÇÃO</h2>
+                    <p>Seu filho vai aprender em um ambiente seguro, acolhedor e receptivo. Nossa atmosfera
+                        permite que as crianças respeitem a si mesmas e às outras.
+                    <br><br>
+                        Por meio de diversas experiências criativas, podemos aumentar a capacidade
+                        da criança de socializar com outras pessoas, ser criativa, poder se expressar
+                        e se desenvolver. Oferecemos um programa educacional de alta qualidade, que é aprimorado constantemente.</p>
+                    <button class="button"><a href="contato.html">Entrar em contato</a></button>
+                </div>
+            </div>
         </section>
 
-        <section class="impact mt-5">
-            <h2>Nosso Impacto</h2>
-            <p>Já ajudamos centenas de pessoas em nossa comunidade, fornecendo alimentos, educação, treinamento
-                profissional e muito mais.</p>
+        <section class="about mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>PLAYGROUND</h2>
+                    <p>Áreas de lazer são importantes para as crianças, pois elas precisam de um espaço para
+                        se movimentar, explorar ambientes, trabalhar o fazer de conta, interpretar e criar.
+                    <br><br>
+                        Áreas de lazer estimulam a mente, resolvem problemas e ajudam as crianças a aprender
+                        e desenvolver habilidades em todos os domínios. E, é claro, as áreas de lazer também
+                        são importantes para desenvolver a destreza física e a boa saúde.</p>        
+                    <button class="button"><a href="contato.html">Entrar em contato</a></button>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/about" alt="Imagem da Escola municipal adonoriro de souza Ribeiro" class="img-fluid">
+                </div>
+            </div>
         </section>
 
-        <section class="donate mt-5 text-center">
-            <h2>Como você pode ajudar nossa instituição</h2>
-            <p>Contribua para o nosso projeto social e faça a diferença na vida das pessoas necessitadas.</p>
-            <button class="btn btn-primary" id="donateBtn">Faça uma Doação</button>
-            <br/>
-        <iframe width="600" height="450" frameborder="0" style="border:0"
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDunp5UoDY4LeKYFo92ByH9MgIYiVehBaI&q=IFSULDEMINAS - Campus Machado&zoom=15"
-            allowfullscreen>
-        </iframe>
-    </section>
 
     </div>
 
-
-
-
     <footer class="bg-dark text-white text-center mt-5 py-3">
-        <p>&copy; 2023 Projeto Social XYZ</p>
+    <div>
+        <a href="contato.html"><button id="contato">contato</button></a>
+
+    </div>
+        <p>&copy; 2025 Projeto Social XYZ</p>
     </footer>
 
     <!-- Inclua o Bootstrap JavaScript e o jQuery -->
@@ -74,9 +98,4 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
-<footer>
-    <div>
-        <a href="contato.html"><button id="contato">contato</button></a>
-    </div>
-</footer>
 </html>
