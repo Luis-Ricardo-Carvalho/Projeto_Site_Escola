@@ -1,9 +1,38 @@
-/* Classe personalizada com tom de azul */
-.custom-blue-header {
-    background-color: #007bff; /* Tom de azul personalizado */
-    color: #fff; /* Cor do texto */
+#text{
+    display: block;
+    padding: 5px;
+    margin: 2px;
+}
+
+
+#titulo {
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+    background-color: green;
+    color: white;
+}
+
+.searching-bar {
+    background-color: green;
 }
 
 #nav{
     justify-content: center;
+}
+
+.contact-style{
+    background-color: green;
+    color: #fff;
+}
+
+.paragraphs-contact{
+    border: solid green 2px; 
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav_item_footer {
+    width: 50%;
 }
