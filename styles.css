@@ -1,9 +1,22 @@
-/* Classe personalizada com tom de azul */
-.custom-blue-header {
-    background-color: #007bff; /* Tom de azul personalizado */
-    color: #fff; /* Cor do texto */
-}
-
 #nav{
     justify-content: center;
+}
+
+.nav-style{
+    background-color: #2e5c41;
+    color: #fff;
+}
+
+.nav_item_footer {
+    width: 50%;
+}
+
+.cor_botao{
+    background-color: #28a745;
+    a{
+      color: #fff;  
+    }
+    a:hover{
+      color: #ddd;  
+    }
 }
