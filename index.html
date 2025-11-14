@@ -16,7 +16,7 @@
 
 <body>
     <!-- Barra de navegação Bootstrap -->
-    <nav id="nav" class="navbar navbar-dark searching-bar">
+    <nav id="nav" class="navbar navbar-dark nav-style">
         <a class="navbar-brand" href="index.html">Home</a>
         <a class="navbar-brand" href="sobre-nos.html">Sobre nós</a>
         <a class="navbar-brand" href="galeria-fotos.html">Galeria de fotos</a>
@@ -32,15 +32,24 @@
 
         <section class="about mt-5">
             <div class="row">
-                <div class="col-md-6">
-                    <h2>Nossa <span style="color: #008f21;">história</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sint et soluta
-                        harum quae libero ipsa blanditiis, officia dolor consectetur qui praesentium
-                        ullam minus tenetur veniam molestias enim quos? Quibusdam.</p>
-                <button class="button"><a href="contato.html">Entrar em contato</a></button>
+                <div class="col-md-12">
+                    <h2>Aulas</h2>
+                    <p>Na Conect School, as aulas são cuidadosamente elaboradas para atender às necessidades
+                         de cada criança. Por isso, conta com uma equipe de profissionais qualificados.</p>
                 </div>
-                <div class="col-md-6">
-                    <img src="assets/about" alt="Imagem da Escola municipal adonoriro de souza Ribeiro" class="img-fluid">
+                <div class="col-md-4">
+                    <img src="assets/about.jpg" alt="Imagem da Escola municipal adonoriro de souza Ribeiro" class="img-fluid">
+                    <br><h4>Educação Infantil</h4>
+                    <p>1 ano e seis meses aos 5 anos</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/about.jpg" alt="Imagem da Escola municipal adonoriro de souza Ribeiro" class="img-fluid">
+                    <br><h4>Ensino Fundamental</h4>
+                    <p>6 anos a 10 anos de idade</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="assets/about.jpg" alt="Imagem da Escola municipal adonoriro de souza Ribeiro" class="img-fluid">
+                    <br><h4>Turno Integral</h4>
                 </div>
             </div>
         </section>
@@ -48,17 +57,32 @@
         <section class="about mt-5">
             <div class="row">
                 <div class="col-md-6">
-                    <img src="assets/about" alt="Imagem da Escola municipal adonoriro de souza Ribeiro" class="img-fluid">
+                    <h3>Nossa <span style="color: #008f21;">história</span></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis sint et soluta
+                        harum quae libero ipsa blanditiis, officia dolor consectetur qui praesentium
+                        ullam minus tenetur veniam molestias enim quos? Quibusdam.</p>
+                <button class="button cor_botao"><a href="contato.html">Entrar em contato</a></button>
                 </div>
                 <div class="col-md-6">
-                    <h2>FORMAÇÃO</h2>
+                    <img src="assets/about.jpg" alt="Imagem da Escola municipal adonoriro de souza Ribeiro" class="img-fluid">
+                </div>
+            </div>
+        </section>
+
+        <section class="about mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/about.jpg" alt="Imagem da Escola municipal adonoriro de souza Ribeiro" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h3>FORMAÇÃO</h3>
                     <p>Seu filho vai aprender em um ambiente seguro, acolhedor e receptivo. Nossa atmosfera
                         permite que as crianças respeitem a si mesmas e às outras.
                     <br><br>
                         Por meio de diversas experiências criativas, podemos aumentar a capacidade
                         da criança de socializar com outras pessoas, ser criativa, poder se expressar
                         e se desenvolver. Oferecemos um programa educacional de alta qualidade, que é aprimorado constantemente.</p>
-                    <button class="button"><a href="contato.html">Entrar em contato</a></button>
+                    <button class="button cor_botao"><a href="contato.html">Entrar em contato</a></button>
                 </div>
             </div>
         </section>
@@ -66,17 +90,17 @@
         <section class="about mt-5">
             <div class="row">
                 <div class="col-md-6">
-                    <h2>PLAYGROUND</h2>
+                    <h4>PLAYGROUND</h4>
                     <p>Áreas de lazer são importantes para as crianças, pois elas precisam de um espaço para
                         se movimentar, explorar ambientes, trabalhar o fazer de conta, interpretar e criar.
                     <br><br>
                         Áreas de lazer estimulam a mente, resolvem problemas e ajudam as crianças a aprender
                         e desenvolver habilidades em todos os domínios. E, é claro, as áreas de lazer também
                         são importantes para desenvolver a destreza física e a boa saúde.</p>        
-                    <button class="button"><a href="contato.html">Entrar em contato</a></button>
+                    <button class="button cor_botao"><a href="contato.html">Entrar em contato</a></button>
                 </div>
                 <div class="col-md-6">
-                    <img src="assets/about" alt="Imagem da Escola municipal adonoriro de souza Ribeiro" class="img-fluid">
+                    <img src="assets/about.jpg" alt="Imagem da Escola municipal adonoriro de souza Ribeiro" class="img-fluid">
                 </div>
             </div>
         </section>
@@ -84,12 +108,37 @@
 
     </div>
 
-    <footer class="bg-dark text-white text-center mt-5 py-3">
-    <div>
-        <a href="contato.html"><button id="contato">contato</button></a>
 
-    </div>
-        <p>&copy; 2025 Projeto Social XYZ</p>
+    <footer class=" text-white text-center mt-5">
+        <section class="bg-success about py-3">
+            <div class="row">
+                <div class="col-md-4" style="align-content: center;">
+                    <img width="35%"  src="assets/Logo_E_M_Adoniro_de_Souza_Ribeiro.png" alt="Imagem sobre a escola" class="img-fluid">
+                </div>
+                <div class="col-md-2" style="align-content: center;">
+                    <nav id="nav" class="navbar navbar-dark">
+                        <a class="navbar-brand nav_item_footer" href="projetos.html">Projetos</a>
+                        <a class="navbar-brand nav_item_footer" href="noticias.html">Notícias</a>
+                        <a class="navbar-brand nav_item_footer" href="contato.html">Contato</a>
+                    </nav>
+                </div>
+
+                <div class="col-md-2" style="align-content: center;">
+                    <nav id="nav" class="navbar navbar-dark">
+                        <a class="navbar-brand nav_item_footer" href="index.html">Home</a>
+                        <a class="navbar-brand nav_item_footer" href="sobre-nos.html">Sobre nós</a>
+                        <a class="navbar-brand nav_item_footer" href="galeria-fotos.html">Galeria de fotos</a>
+                    </nav>
+                </div>
+                <div class="col-md-3" style="align-content: center;">
+                    <h5>Fale com a gente</h5>
+                    <p>(35) 9 9724-1468</p>
+                    <p>emadoniro@hotmail.com</p>
+                    <p>BAIRRO PINHALZINHO, PINHALZINHO. 37750-000 Machado - MG</p>
+                </div>
+            </div>
+        </section>
+        <p class="bg-secondary mb-0 py-2">&copy; 2026 Escola Municipal Adoniro de Souza Ribeiro</p>
     </footer>
 
     <!-- Inclua o Bootstrap JavaScript e o jQuery -->
