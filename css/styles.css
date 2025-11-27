@@ -1,9 +1,24 @@
+#logo_footer{
+    align-content: center;
+
+    @media only screen and (max-width: 768px) and (min-width: 425px) {
+        width: 25%;
+    }
+
+    @media only screen and (max-width: 425px) {
+        width: 50%;
+    }
+}
+
+#text_center{
+    justify-content: center;
+}
+
 #text{
     display: block;
     padding: 5px;
     margin: 2px;
 }
-
 
 #titulo {
     text-align: center;
@@ -53,4 +68,29 @@
     a:hover{
       color: #ddd;  
     }
+}
+
+@media only screen and (max-width: 767px) {
+    .resp_flexD{
+        flex-direction: column-reverse;
+    }
+}
+
+.aula_style{
+    text-align: center;
+
+    @media only screen and (max-width: 425px) {
+        max-width: 300px;
+    }
+}
+
+.title-style{
+    background-color: #2e5c41;
+    color: #fff;
+    padding: 5px;
+}
+
+.row{
+    margin-right: 0 !important;
+    margin-left: 0 !important;
 }
