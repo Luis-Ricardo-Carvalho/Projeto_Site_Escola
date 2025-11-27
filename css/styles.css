@@ -84,6 +84,12 @@
     }
 }
 
+.title-style{
+    background-color: #2e5c41;
+    color: #fff;
+    padding: 5px;
+}
+
 .row{
     margin-right: 0 !important;
     margin-left: 0 !important;
