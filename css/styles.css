@@ -70,6 +70,11 @@
     }
 }
 
+.aula_style{    
+        align-content: flex-end;
+
+}
+
 @media only screen and (max-width: 767px) {
     .resp_flexD{
         flex-direction: column-reverse;
